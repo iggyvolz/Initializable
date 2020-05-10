@@ -1,0 +1,21 @@
+{
+    "name": "iggyvolz/initializable",
+    "description": "Interface for a class which defines an optional static constructor",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Katie Volz",
+            "email": "iggyvolz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1|8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "iggyvolz\\Initializable\\": "src/"
+        }
+    }
+}
